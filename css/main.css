@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/12/2018, 02:29:42 PM
+    Author     : Alfredo
+*/
+:root{
+	--main-color: #00d0d0;
+	--secondary-color: #5b5b5b;
+	--font: 'Montserrat', sans-serif;
+}
+
+
+html{
+	box-sizing: border-box;
+}
+
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#top{
+	width: 100%;
+	background-color: var(--secondary-color);
+	font-family: var(--font);
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0;
+	color: #fff;
+	letter-spacing: 1em;
+}
+
+.contenedor{
+	width: 100%;
+	margin: 0 auto;
+	background-color: var(--main-color);
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0px;
+	font-family: var(--font);
+}
+
+.contenedor h4{
+	padding: 0 1em;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#area_texto{
+	width: 85%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+input#limpiar{
+	font-size: 1em;
+	font-weight: bold;
+	background-color: var(--secondary-color);
+	color: #fff;
+	align-self: flex-end;
+	border-style: none;
+	width: 100px;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 10px;
+}
+
+input#buscador{
+	margin-left: 10px;
+	width: 150px;
+	height: 40px;
+}
+
+input#limpiar:hover{
+	background-color: black;
+}
+
+div.total{
+	display: flex;
+	justify-content: center;
+}
+
+p, label{
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+span{
+	color: var(--secondary-color);
+	font-weight: bold;
+	font-size: 1.4em;
+	padding-left: 10px;
+}
+
+.highlighted{
+	background-color: yellow;
+}
